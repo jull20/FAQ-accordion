@@ -22,7 +22,7 @@ function Header(){
 }
 
 function FAQList(){
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(1);
 
   interface questionData {
     id: number;
